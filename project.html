@@ -33,6 +33,9 @@
             <li>
                 <a href="#loungex">LoungeX</a>
             </li>
+            <li>
+                <a href="#oda">Oda</a>
+            </li>
         </ul>
     </header>
     <!-- End header -->
@@ -104,6 +107,7 @@
                     </p>
                 </div>
 
+                <br>
                 <embed src="modu_pdf.pdf" type="application/pdf" width="100%" height="600px" />
 
                 <br>
@@ -120,6 +124,10 @@
                         작동 프로세스는 안드로이드 테블릿에서 메뉴선택 후 라즈베리파이에 소켓통신으로 주문을 전송합니다.
                         라즈베리파이는 해당 주문에 맞는 데이터를 로봇에 보내고 로봇이 커피를 만드는 동안 지속적으로 모니터링을
                         하며 테블릿에 현재 동작내용을 보내줍니다.
+
+                        안드로이드 - 라즈베리파이 : AsyncTask를 이용한 비동기 소켓통신
+                        라즈베리파이 - Universal Robot : Python 소켓통신
+
                         <br><br>
                         에러사항 :<br>
                         로봇의 경우 산업로봇과 다르게 실제 사람과 같은 공간에서 작업을 하기 때문에 특정 상황에 대한 처리가 필요했습니다.
@@ -131,6 +139,30 @@
                     <br>
                     <iframe src="https://drive.google.com/file/d/1VcJkPMwxy-MV08FFaK2S4wn-AoBq6Qbt/preview" width="640" height="360"></iframe>
                 </div>
+
+                <br>
+                <br>
+                
+                <div class="col-md-4" id="oda">
+                    <h2 class="heading">소상공인 연결 플랫폼 '오다'</h2>
+                    <h3>카피캣</h3>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        소상공인 연결 플랫폼인 '오다' 카피캣 프로젝트
+
+                        처음 디자인을 받아서 서버 개발자와 협엽을 해본 프로젝트입니다.<br>
+                        로그인부터 상품 조회, 상품 상세, 장바구니, 구매, 구매내역까지의 기능을 구현했습니다.<br>
+                        - 4가지 탭을 ViewPager와 Fragment를 이용해 연결
+                        - 서버통신은 Retrofit2를 이용
+                        - 이미지 로드는 Glide를 이용
+                        <br>
+                    </p>
+
+                    <br>
+                    <iframe src="https://drive.google.com/file/d/1lX59spKhvyuAldDjMElgmyjAxfaYl5Rd/preview" width="270" height="480"></iframe>
+                </div>
+
             </div>
         </div>
     </div>
