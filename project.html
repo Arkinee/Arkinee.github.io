@@ -94,13 +94,19 @@
                     <br>3. 카테고리별 사용내역 통계
                     <br>4. 소비자가 모르는 구독 서비스 추천
                     <br>5. 구독 계정 공유를 통한 결제 가격부담 완화
-
+                    <br><br>
                     플랫폼 : 안드로이드<br>
                     사용한 주요 라이브러리 :<br>
                     - FirebaseCloudMessaging, NotificationManager : 푸시알림<br>
                     - WorkManager : 백그라운드 서비스로 구독 상품의 금일과 구독 상품의 푸쉬알림 받을 날짜 비교<br>
                     - Glide : 구독 상품 이미지 캐싱, 이미지 재설정, ImageView에 로드<br>
-                    - Retrofit2 : 비동기 서버통신으로 REST API를 쉽게 이용<br><br>
+                    - Retrofit2 : 비동기 서버통신으로 REST API를 쉽게 이용
+
+                    <br><br>
+                    에러사항 :<br>
+                    - MVP를 만들 당시 서버 개발자가 없었기에 모바일 내부에서 SharedPreference에 데이터를 저장하고 스케줄러를 돌렸습니다.<br>
+                    - 추후 사업화 시 AOS와 IOS 동시 제공을 위해 하이브리드 앱을 만들기로 결정하고 서버 개발자와 React 기반의 웹 프론트엔드 개발자, 디자이너로 팀을 구성해 리브랜딩 된 버전을 만들었습니다.<br><br>
+                    - PG사와 계약을 진행하고 실결제(정기결제) 테스트를 하는데 시간이 조금 걸렸으며 두 플랫폼 합 1만 다운로드를 달성했습니다.<br><br>
 
                     <a href="https://bit.ly/modu-redirect">Information</a><br>
                     <a href="files/spready.pdf">소개 PPT</a>
@@ -186,8 +192,8 @@
                         이용방법 터듭 후에는 모바일에서는 api를 적용해 결제 정보 등록에 활용했고
                         태블릿에서는 실시간으로 얼굴인식을 하고 유저의 얼굴 데이터와 비교를 통해 결제로 넘어가는 식으로 구현했습니다.<br><br>
 
-                        <iframe src="https://drive.google.com/file/d/1VcJkPMwxy-MV08FFaK2S4wn-AoBq6Qbt/preview"
-                            width="100%" height="360"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1rLqbqbpTOwEFAzDzlt97ZOpkQuhUfZDl/preview" vq="hd720"
+                        width="640" height="480"></iframe>
                     </p>
 
                     <br>
@@ -200,12 +206,12 @@
                 <div class="col-md-8">
                     <p>
                         설명:<br>
-                        제주도에서 사용하는 쿠폰을 구매할 수 있는 안드로이드 앱 개발 
+                        제주도에서 사용하는 쿠폰을 구매할 수 있는 안드로이드 앱 외주 개발 
                         <br><br>
 
                         주요작업 : <br>
                         위지기반으로 내 주변의 쿠폰을 이용 가능한 가맹점들을 표출하며 아임포트를 이용한 실결제 시스템 도입
-                        
+                        <br><br>
                         개발기능 :<br>
                         - 회원가입<br>
                         - 상품 상세조회<br>
